@@ -1,0 +1,19 @@
+# Ignore vendor and environment files
+/vendor/
+.env
+
+# Ignore logs and cache
+*.log
+*.cache
+
+# Ignore database dumps (optional)
+*.sql
+*.sqlite
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
